@@ -1,0 +1,82 @@
+//Input and info container
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 0 2.4rem;
+
+
+}
+
+//IP infos 
+
+.info-container {
+    display: grid;
+    gap: 29px;
+    padding: 2.9rem 0;
+    border-radius: 10px;
+    margin-top: 2.4rem;
+    background-color: $white;
+    width: 100%;
+
+
+    h1 {
+        font-weight: 700;
+        color: $verDarkGray;
+        font-size: 1.8rem;
+
+    }
+
+    p {
+        color: $darkGray;
+        font-weight: 700;
+        padding-bottom: 14px;
+    }
+
+}
+
+//Blue background image
+.pattern {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/pattern-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+
+}
+
+//3D data wrapper
+.map {
+
+    width: 100%;
+    background-color: red;
+}
+
+//IP adress title
+.title {
+    font-weight: 500;
+    font-size: 2.0rem;
+    padding: 3.1rem 0;
+    color: $white;
+}
+
+.search-container {
+    width: 100%;
+}
+
+//input
+input {
+    padding: 2.1rem 2.4rem;
+    border: none;
+    width: 100%;
+    max-width: $maxInfo;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
