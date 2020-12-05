@@ -49,6 +49,7 @@ body {
   margin-top: 2.4rem;
   background-color: #fff;
   width: 100%;
+  max-width: 555px;
 }
 
 .info-container h1 {
