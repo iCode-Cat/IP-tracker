@@ -25,6 +25,8 @@
     max-width: $maxInfo;
 
 
+
+
     h1 {
         font-weight: 700;
         color: $verDarkGray;
@@ -42,6 +44,7 @@
 
 //Blue background image
 .pattern {
+    display: flex;
     display: flex;
     justify-content: center;
     background-image: url('../images/pattern-bg.png');
