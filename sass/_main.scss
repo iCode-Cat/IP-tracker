@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
+    z-index: 9999;
     text-align: center;
     width: 100%;
     padding: 0 2.4rem;
@@ -22,9 +23,6 @@
     margin-top: 2.4rem;
     background-color: $white;
     width: 100%;
-    max-width: $maxInfo;
-
-
 
 
     h1 {
@@ -45,7 +43,6 @@
 //Blue background image
 .pattern {
     display: flex;
-    display: flex;
     justify-content: center;
     background-image: url('../images/pattern-bg.png');
     background-repeat: no-repeat;
@@ -60,7 +57,8 @@
 .map {
 
     width: 100%;
-    background-color: red;
+    background-color: gray;
+    
 }
 
 //IP adress title
@@ -83,4 +81,18 @@ input {
     max-width: $maxInfo;
     border-radius: 10px;
     font-size: 1.8rem;
+}
+
+.input-container {
+    
+position: relative;
+
+
+}
+
+button {
+    position: absolute;
+    margin-left: -24px;
+    height: 100%;
+    
 }

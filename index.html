@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | IP Address Tracker </title>
+  <title>Frontend Mentor | IP Address Tracker</title>
    <!-- IP Address Tracker
 
   Search for any IP address or domain
@@ -17,13 +17,21 @@
   UTC 
   ISP -->
   <link rel="stylesheet" href="./sass/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
+  
     <div class="pattern">
       <section class="main-container">
         <div class="search-container">
           <div class="title">IP Address Tracker</div>
-        <input value="198.162.2.1" type="text" class="search">
+        <div class="input-container">
+          <input value="198.162.2.1" type="text" class="search">
+          <button>get</button>
+        </div>
         </div>
         <div class="info-container">
          <div class="box">
@@ -53,9 +61,11 @@
     </div>
     
     
-  <div class="map"></div>
+  <div id="mapid" class="map"></div>
   
-
-
+  <script>
+    
+    </script>
+<script src="index.js"></script>
 </body>
 </html>
